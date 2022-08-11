@@ -1,0 +1,13 @@
+{
+    "name": "csesumonpro/phpcs",
+    "authors": [
+        {
+            "name": "csesumonpro",
+            "email": "csesumonpro@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    }
+}

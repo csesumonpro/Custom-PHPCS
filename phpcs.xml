@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="PHP Coding Standards">
+    <description>Custom PHP Coding Standards</description>
+
+    <!-- File/Directory to be executed -->
+    <file>app</file>
+
+    <!-- Exclude paths -->
+    <exclude-pattern>/vendor/</exclude-pattern>
+    <exclude-pattern>*.js</exclude-pattern>
+
+    <!--Set Code Standard -->
+    <rule ref="PSR2"/>
+    <rule ref="Squiz.NamingConventions.ValidVariableName"/>
+
+    <!-- set the config -->
+    <arg name="extensions" value="php" />
+    <arg name="colors"/>
+    <arg value="p"/>
+</ruleset>
